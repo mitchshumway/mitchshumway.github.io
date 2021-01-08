@@ -1,0 +1,12 @@
+h1 {
+    font-family:sans-serif; 
+    position:absolute; 
+    color:greenyellow;
+    text-indent:20px
+}   
+.responsive {
+    width: 100%;
+    min-height: 820px;
+    height: auto;
+  }
+
