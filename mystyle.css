@@ -1,12 +1,47 @@
-h1 {
+/*h1 {
     font-family: sans-serif; 
     position: absolute; 
     color: greenyellow;
     text-indent: 20px
-}   
+}   */
+
 .responsive {
     width: 100%;
     min-height: 820px;
     height: auto;
   }
+
+.card {
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    height: 80%;
+    width: 30%;
+    overflow: scroll;
+    background-color: midnightblue;
+    color: greenyellow;
+    
+}
+
+.navbar {
+    z-index:3;
+    font-weight: bolder;
+}
+
+.dropdown-menu {
+    background-color: orange;
+}
+
+.container-fluid {
+    background-color: darkgrey;
+}
+
+.small {
+    max-height: 100px;
+}
+
+.text {
+   
+}
 
