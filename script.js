@@ -12,7 +12,7 @@ function displayBio() {
       <h6 class="card-subtitle mb-2 text-muted"><!--Card subtitle--></h6>
       <p class="card-text text">${bio}</p>
       <a href="index.html" class="card-link">Home</a>
-      <a href="#" class="card-link">Video</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="card-link">Video</a>
     </div>
   </div>`
 
