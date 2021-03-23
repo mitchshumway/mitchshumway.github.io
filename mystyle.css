@@ -5,17 +5,23 @@
     text-indent: 20px
 }   */
 
-.responsive {
+
+.skiImg {
+    background-image: url(images/background.jpg);
+    /* background-image: url("images/background.jpg"); */
+    position:  absolute;
+    background-position: center bottom top;
     width: 100%;
-    min-height: 820px;
-    height: auto;
+    /*min-height: 820px;*/
+    z-index: 2;
+    height: 100%;
   }
 
 .card {
-    z-index: 2;
-    position: absolute;
-    top: 130px;
     left: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 115px;
     height: 80%;
     width: 30%;
     overflow: scroll;
@@ -35,13 +41,40 @@
 
 .container-fluid {
     background-color: darkgrey;
+    position: static;
+    z-index: 3;
+    top: 75px;
 }
 
 .small {
     max-height: 100px;
 }
 
-.text {
-   
+@media (max-width: 480px) {
+    .skiImg {
+        background-image: url(images/mobile.jpg);
+        background-position: center top;
+        position: center;
+    }
+    .card {
+        position: absolute;
+        background-position: top left;
+        height: 90%;
+        left: 15px;
+        top: 50px;
+    }
+    .navbar-brand{ 
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .card{
+        left: 100px;
+        position: absolute;
+    }
+    .skiImg{
+        background-position: center top;
+    }
 }
 
